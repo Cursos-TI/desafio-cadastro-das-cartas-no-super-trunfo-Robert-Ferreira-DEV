@@ -2,7 +2,7 @@
 
 int main (){
     char carta1 = '1';
-    char codigo1 = 'A01';
+    char codigo1[10] = 'A01';
     char pais1[10];
     char estado1[20];
     char cidade1[20];
@@ -14,7 +14,7 @@ int main (){
     float pib1;
 
     char carta1 = '2';
-    char codigo2 = 'A02';
+    char codigo2[10] = 'A02';
     char pais2[10];
     char estado2[20];
     char cidade2[20];
