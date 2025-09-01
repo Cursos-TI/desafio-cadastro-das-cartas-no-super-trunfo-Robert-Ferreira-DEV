@@ -27,16 +27,16 @@ int main (){
 
     printf("Informações da primeira carta: \n\n");
 
-    printf("Carta: 1\n");
-    printf("Código: A01\n");
+    printf("Carta: 1 \n");
+    printf("Código: A01 \n");
 
-    printf("País: \n");
+    printf("País: ");
     scanf("%s",&pais1);
 
-    printf("Estado: \n");
+    printf("Estado: ");
     scanf("%s",&estado1);
 
-    printf("Cidade: \n");
+    printf("Cidade: ");
     scanf("%s",&cidade1);
 
     printf("População (Bilhões): ");
@@ -56,13 +56,13 @@ int main (){
     printf("Carta: 2\n");
     printf("Código: A02\n");
 
-    printf("País: \n");
+    printf("País: ");
     scanf("%s",&pais2);
 
-    printf("Estado: \n");
+    printf("Estado: ");
     scanf("%s",&estado2);
 
-    printf("Cidade: \n");
+    printf("Cidade: ");
     scanf("%s",&cidade2);
 
     printf("População (Bilhões): ");
