@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int main (){
-    char carta1 = '1';
-    char codigo1[10] = 'A01';
+    char letra1 = '1';
+    char codigo1[10];
     char pais1[10];
     char estado1[20];
     char cidade1[20];
@@ -13,8 +13,8 @@ int main (){
     float area1;
     float pib1;
 
-    char carta1 = '2';
-    char codigo2[10] = 'A02';
+    char letra2 = '2';
+    char codigo2[10];
     char pais2[10];
     char estado2[20];
     char cidade2[20];
@@ -28,7 +28,7 @@ int main (){
     printf("Informações da primeira carta: \n\n");
 
     printf("Carta: 1 \n");
-    printf("Código: A01 \n");
+    scanf("%c",&letra1");
 
     printf("País: ");
     scanf("%s",&pais1);
@@ -54,7 +54,7 @@ int main (){
     printf("Informações da segunda carta: \n\n");
 
     printf("Carta: 2\n");
-    printf("Código: A02\n");
+    scanf("%c",&letra2");
 
     printf("País: ");
     scanf("%s",&pais2);
@@ -72,7 +72,7 @@ int main (){
     scanf("%d",&pontosturisticos2);
 
     printf("Área (km²): ");
-    scanf("%f",&area12;
+    scanf("%f",&area2);
 
     printf("Pib (Reais): ");
     scanf("%f",&pib2);
